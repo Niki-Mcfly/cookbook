@@ -1,0 +1,70 @@
+.container {
+  margin-left: auto;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  width: 100%;
+}
+
+.hero {
+  height: 2rem;
+}
+
+#pic {
+  height: 200px;
+  width: 100%;
+}
+
+.kurzinfo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.kurzinfo p {
+  margin: 10px;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.table {
+  width: auto;
+  height: 200px;
+  font-weight: bold;
+}
+
+#table1 {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+thead {
+  background-color: lavender;
+}
+
+tbody {
+  font-weight: 700;
+}
+
+.form-label {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.form-outline {
+  display: flex;
+}
+
+.btn {
+  margin-left: 15px;
+}
