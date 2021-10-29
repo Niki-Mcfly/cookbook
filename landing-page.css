@@ -1,0 +1,152 @@
+body {
+  font-family: "Merriweather", serif;
+  background-color: aliceblue;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: right;
+  color: #5a4135;
+}
+
+.navbar p {
+  display: inline-flex;
+  margin: 1em;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 20em;
+  justify-self: center;
+}
+
+.loc-grid {
+  display: flex;
+  justify-items: center;
+}
+
+.loc-flex {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  background-color: aliceblue;
+  background-size: cover;
+  background-position: center;
+}
+
+.loc-caption h2 {
+  margin-bottom: 15px;
+  color: blue;
+}
+
+.boxes {
+  display: inline-flex;
+  position: absolute;
+  align-content: center;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  display: grid;
+  height: 500px;
+  width: 400px;
+  margin: 30px;
+  line-height: 10px;
+  background-color: #5a4135;
+  align-content: flex-end;
+  border: 3px solid #9d5c3b;
+  color: aliceblue;
+}
+
+.img-tira {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid #9d5c3b;
+}
+
+.img-riso {
+  height: 374px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  border-bottom: 3px solid #9d5c3b;
+}
+
+.img-pael {
+  height: 374px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  border-bottom: 3px solid #9d5c3b;
+}
+
+.box-1 button {
+  height: 3rem;
+  width: 12rem;
+  color: #9d5c3b;
+  justify-self: center;
+  background-color: aliceblue;
+  opacity: 0.8;
+  border: solid 2px #9d5c3b;
+  margin-bottom: 5px;
+}
+
+.box-2 button {
+  height: 3rem;
+  width: 12rem;
+  color: #9d5c3b;
+  justify-self: center;
+  background-color: aliceblue;
+  opacity: 0.8;
+  border: solid 2px #9d5c3b;
+  margin-bottom: 5px;
+}
+
+.box-3 button {
+  height: 3rem;
+  width: 12rem;
+  color: #9d5c3b;
+  justify-self: center;
+  background-color: aliceblue;
+  opacity: 0.8;
+  border: solid 2px #9d5c3b;
+  margin-bottom: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e4dcd6;
+  height: 150px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-rechts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.impressum, .social-media {
+  display: inline-flex;
+  margin: 50px;
+}
+
+.img-insta, .img-fb, .img-twitter {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 7px;
+}
+
+.newsletter, .anmeldung {
+  margin: 50px;
+}
